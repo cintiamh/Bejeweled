@@ -1,6 +1,7 @@
 pj = window.pj || {};
 
 pj.Gem = function() {
-	this.position = {x:0, y:0};
-	this.gridPosition = {x:0, y:0};
+	this.cell = null;
+	this.type = 0; // types are stored in an array. this is the array index.
+	this.level = 0; // 0 - normal, 1 - power, 2 - hyper
 };
