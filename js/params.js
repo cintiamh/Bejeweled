@@ -1,5 +1,9 @@
 pj = window.pj || {};
 
+pj.BASE_SCORE = 10;
+pj.GRID_COLS = 8;
+pj.GRID_ROWS = 8;
+pj.GRID_WIDTH = 160;
 pj.gridPosition = {x: 0, y: 0};
 
 pj.gemTypes = [
@@ -29,8 +33,7 @@ pj.gemTypes = [
 	}
 ];
 
-// Score
-pj.BASE_SCORE = 10;
+// minScore
 
 pj.levels = [
 	{
