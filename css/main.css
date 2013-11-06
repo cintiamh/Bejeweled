@@ -1,24 +1,11 @@
 body {
     margin: 0;
+    padding: 0;
+    overflow: hidden;;
 }
 
-#game {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 320px;
-    height: 480px;
-    background-color: #333333;
-}
-
-#game .screen {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none;
-    z-index: 10;
-}
-
-#game .screen.active {
-    display: block;
+#container {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
 }
